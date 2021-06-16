@@ -7,6 +7,22 @@ This is the **python** implementation of the - [Visual object tracking using ada
 - opencv-python
 
 ## How to use the code
+### Step 0
+prepare directory "datasets" on the same level of demo.py
+datasets includes several sub-directory, every sub-directory includes numbers of pictures and only a "groundtruth.txt" includes ground-truth paramters
+```
+groundtruth.txt
+
+x1,y1,x2,y2,x3,y3,x4,y4
+
+x1,y1-----------x2,y2
+|					|
+|					|
+|					|
+|					|
+x4,y4-----------x3,y3
+```
+accepts rectangles or other for vertex graph
 ### Step 1
 ```bash
 python demo.py 
@@ -16,7 +32,7 @@ python demo.py
 Use mouse to select the object which needs to be tracked and Press **Enter** to start tracking.
 
 ## Demo
-![demo](https://github.com/TianhongDai/MOSSE_Object_Tracking/blob/master/examples/surfer.gif)
+![demo](https://github.com/TianhongDai/MOSSE_Object_Tracking/blob/master/examples/fish.mp4)
 
 ## Reference:
 [1] [Visual object tracking using adaptive correlation filters](https://ieeexplore.ieee.org/document/5539960/)
