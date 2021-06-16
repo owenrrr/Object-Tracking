@@ -32,7 +32,7 @@ python demo.py
 Use mouse to select the object which needs to be tracked and Press **Enter** to start tracking.
 
 ## Demo
-![demo](https://github.com/TianhongDai/MOSSE_Object_Tracking/blob/master/examples/fish.mp4)
+![demo](https://github.com/owenrrr/Object-Tracking/edit/master/examples/fish.mp4)
 
 ## Reference:
 [1] [Visual object tracking using adaptive correlation filters](https://ieeexplore.ieee.org/document/5539960/)
